@@ -106,5 +106,7 @@ EOT
         }
 
         $output->writeln('<info>success!</info>');
+
+        return 0;
     }
 }

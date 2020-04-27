@@ -310,5 +310,7 @@ class Create extends AbstractCommand
         }
 
         $output->writeln('<info>created</info> ' . str_replace(getcwd() . DIRECTORY_SEPARATOR, '', $filePath));
+
+        return 0;
     }
 }

@@ -103,5 +103,7 @@ class Init extends Command
         }
 
         $output->writeln('<info>created</info> .' . str_replace(getcwd(), '', $filePath));
+
+        return 0;
     }
 }

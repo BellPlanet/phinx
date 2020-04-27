@@ -126,6 +126,8 @@ EOT
 
         $output->writeln('');
         $output->writeln('<comment>All Done. Took ' . sprintf('%.4fs', $end - $start) . '</comment>');
+
+        return 0;
     }
 
     /**

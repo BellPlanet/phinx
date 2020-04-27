@@ -94,5 +94,7 @@ EOT
             // Toggle the breakpoint.
             $this->getManager()->toggleBreakpoint($environment, $version);
         }
+
+        return 0;
     }
 }
